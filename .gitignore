@@ -1,0 +1,44 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.ipynb_checkpoints/
+
+# === MATLAB / Simulink ===
+*.asv           # Autosave backup files
+*.slxc          # Simulink compiled cache files
+*.slx.autosave  # Autosave
+*.mex*          # Compiled binaries
+*.mdl.autosave
+*.bak
+*.fig           # MATLAB figure files (optional)
+*.mat           # Data files (optional if you want to commit them)
+
+# === GENERAL ===
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# === LOGS ===
+*.log
+
+# === OUTPUT / BUILD / EXPORT ===
+*.out
+*.exe
+*.obj
+*.dll
+*.tmp
+*.log
+*.csv           # Only ignore if auto-generated
+
+# === VSCODE (if you use it) ===
+.vscode/
+
+Add .gitignore for simulation files
